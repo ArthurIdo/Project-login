@@ -1,0 +1,46 @@
+@import '_variables';
+@import '_functions';
+
+.main{
+    display: flex;
+    justify-content: center;
+    padding-top: 260px;
+}
+
+.div-1{
+    background-color: $colorbotton;
+    color: $colorText-1;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    width: 340px;
+    height: 400px;
+    border-radius: 20px;
+    padding: 15px;
+
+    .field-2{
+        padding-top: 20px;
+    }
+}
+
+.div-1 form{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.div-2{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+
+    .button{
+        background-color: blue;
+        color: $colorText-1;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        border-radius: 8px;
+        border-style: solid;
+        width: 90px;
+        height: 40px;
+
+    }
+}
